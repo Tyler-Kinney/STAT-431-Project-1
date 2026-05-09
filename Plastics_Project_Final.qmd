@@ -134,7 +134,7 @@ plastics |>
                linewidth = 1) +
   geom_point(aes(x = year_2019, y = type), color = "grey", size = 3) +
   geom_point(aes(x = year_2020, y = type), color = "#EB6864", size = 3) +
-  scale_x_continuous(labels = scales::label_percent()) +
+  scale_x_continuous(labels = label_percent()) +
   labs(title = "Change in Plastic Type Composition",
        subtitle = "(<span style='color:grey;'>2019</span> – <span style='color:#E45756;'>2020</span>)",
        x = "Proportion of total plastic",
@@ -224,7 +224,7 @@ country_change |>
   theme_light()
 
 ```
-Figure 2 shows us that most countries experienced relatively small changes in plastic waste between 2019 and 2020, as indicated by the clustering of points near the dashed line. However, a few countries—most notably the Philippines and Switzerland—stand out with substantially larger increases. This suggests that while global plastic waste patterns did shift during COVID-19, much of the change may be driven by a small number of outlier countries.
+Figure 2 shows us that most countries experienced relatively small changes in plastic waste between 2019 and 2020, as indicated by the clustering of points near the dashed line. However, a few countries most notably the Philippines and Switzerland stand out with substantially larger increases. This suggests that while global plastic waste patterns did shift during COVID-19, much of the change may be driven by a small number of outlier countries.
 
 ## Plastic Usage by Income Level
 
@@ -431,7 +431,7 @@ plastic_type_distribution |>
 
 ```
 
-Table 4 shows that plastic waste composition varies noticeably across income groups, even though a few types dominate overall. “Other” plastics and PET make up the largest shares in low- and middle-income groups, together accounting for the majority of waste. In contrast, lower-middle- and high-income groups show a stronger reliance on polypropylene (pp), which becomes one of the leading contributors. Across all income levels, PVC and PS consistently represent only a small fraction of total plastic waste. To confirm whether these differences are statistically meaningful, we conduct a chi-square test of independence.
+Table 4 shows that plastic waste composition varies noticeably across income groups, even though a few types dominate overall. “Other” plastics and PET make up the largest shares in low- and middle-income groups, together accounting for the majority of waste. In contrast, lower-middle and high income groups show a stronger reliance on polypropylene (pp), which becomes one of the leading contributors. Across all income levels, PVC and PS consistently represent only a small fraction of total plastic waste. To confirm whether these differences are statistically meaningful, we conduct a chi-square test of independence.
 
 ```{r}
 #| label: Statistical Model for Data in Table 4
@@ -567,7 +567,7 @@ plastics_country |>
   theme_light()
 
 ```
-Figure 4 reinforces the patterns observed in Table 4, showing that “other” plastics and PET dominate across most income groups. However, when looking at average composition by country, the differences between groups appear less pronounced. While lower-middle and high-income groups still show relatively higher shares of polypropylene (pp), the overall distributions are more balanced, suggesting that some of the stronger patterns in Table 4 may be driven by a smaller number of high-producing countries.
+Figure 4 reinforces the patterns observed in Table 4, showing that “other” plastics and PET dominate across most income groups. However, when looking at average composition by country, the differences between groups appear less pronounced. While lower-middle and high income groups still show relatively higher shares of polypropylene (pp), the overall distributions are more balanced, suggesting that some of the stronger patterns in Table 4 may be driven by a smaller number of high-producing countries.
 
 ## Conclusion
 
