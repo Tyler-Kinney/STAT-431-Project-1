@@ -347,7 +347,7 @@ table_data |>
 
 ```
 
-Table 3 shows a clear shift in how plastic waste is distributed across income groups between 2019 and 2020. In 2019, middle-income countries dominated plastic waste generation, accounting for over 60% of the total, far exceeding all other groups. However, in 2020, this pattern changed significantly, with plastic waste becoming more evenly distributed across lower-middle, upper-middle, and high-income groups. Notably, the share from middle-income countries dropped sharply, while lower-middle-income countries saw a substantial increase. Overall, the data suggests a redistribution of plastic waste contributions away from middle-income countries toward both lower and higher income groups in 2020.
+Table 3 shows a clear shift in how plastic waste is distributed across income groups between 2019 and 2020. In 2019, middle-income countries dominated plastic waste generation, accounting for over 60% of the total, far exceeding all other groups. However, in 2020, this pattern changed significantly, with plastic waste becoming more evenly distributed across lower-middle, upper-middle, and high income groups. Notably, the share from middle-income countries dropped sharply, while lower-middle-income countries saw a substantial increase. Overall, the data suggests a redistribution of plastic waste contributions away from middle-income countries toward both lower and higher income groups in 2020.
 
 To better understand how plastic waste varies across income levels, we examine the distribution of total plastic waste within each wealth group. This next visualization allows us to compare not just overall contributions, but how plastic waste is spread across countries within each income category.
 
